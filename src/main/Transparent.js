@@ -3,12 +3,12 @@ import Button from 'react-bootstrap/Button';
 
 function Transparent(){
     return (
-        <div style={{ position: 'relative', width: '1400px', height: '1000px',}}>
+        <div style={{ position: 'relative', width: 'auto', height: '1000px', }}>
             <img 
                 className="d-block w-100"
                 src="/pic/cash.jpg"
                 alt="TransparentDetail"
-                style={{ height: '800px', objectFit: 'cover' , display: 'flex',justifyContent: 'center'}}
+                style={{ height: '800px', objectFit: 'cover' , display: 'flex',justifyContent: 'center', alignItem: 'center'}}
             />
             <div style={{position: 'absolute', top: '20%', right: '10%', transform: 'translateX(-50%)', textAlign: 'center'}}>
                 <h2 style={{ }}>
